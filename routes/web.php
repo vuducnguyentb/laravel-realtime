@@ -17,8 +17,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/ws',function (){
+    dd('vô');
+    return view('websocket');
+});
+
 Route::get('/playgroud', function () {
     echo 'vô';
     event(new \App\Events\PlaygroudEvent());
     return null;
 });
+
+
