@@ -33,4 +33,14 @@ class PlaygroudEvent implements ShouldBroadcast
     {
         return new Channel('public.playground.1');
     }
+
+    public function broadcastAs(){
+        return 'playgroud';
+    }
+
+    public function broadcastWith(){
+        return [
+            'heya'=>123
+        ];
+    }
 }

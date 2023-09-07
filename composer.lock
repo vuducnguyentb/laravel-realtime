@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "21ebbe447423cbac41b4d7a4261ca96a",
+    "content-hash": "c8f0aa0f4504e7eb3d39d73a17158cef",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3605,16 +3605,16 @@
         },
         {
             "name": "pusher/pusher-php-server",
-            "version": "7.2.3",
+            "version": "7.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pusher/pusher-http-php.git",
-                "reference": "416e68dd5f640175ad5982131c42a7a666d1d8e9"
+                "reference": "a9a7f739a2a03e3fef33633499ba586cabd57686"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pusher/pusher-http-php/zipball/416e68dd5f640175ad5982131c42a7a666d1d8e9",
-                "reference": "416e68dd5f640175ad5982131c42a7a666d1d8e9",
+                "url": "https://api.github.com/repos/pusher/pusher-http-php/zipball/a9a7f739a2a03e3fef33633499ba586cabd57686",
+                "reference": "a9a7f739a2a03e3fef33633499ba586cabd57686",
                 "shasum": ""
             },
             "require": {
@@ -3623,11 +3623,11 @@
                 "guzzlehttp/guzzle": "^7.2",
                 "paragonie/sodium_compat": "^1.6",
                 "php": "^7.3|^8.0",
-                "psr/log": "^1.0|^2.0|^3.0"
+                "psr/log": "^1.0"
             },
             "require-dev": {
                 "overtrue/phplint": "^2.3",
-                "phpunit/phpunit": "^9.3"
+                "phpunit/phpunit": "^8.5|^9.3"
             },
             "type": "library",
             "extra": {
@@ -3660,9 +3660,9 @@
             ],
             "support": {
                 "issues": "https://github.com/pusher/pusher-http-php/issues",
-                "source": "https://github.com/pusher/pusher-http-php/tree/7.2.3"
+                "source": "https://github.com/pusher/pusher-http-php/tree/7.0.0"
             },
-            "time": "2023-05-17T16:00:06+00:00"
+            "time": "2021-05-10T15:22:51+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
