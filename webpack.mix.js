@@ -18,6 +18,7 @@ mix.js('resources/js/app.js', 'public/js')
 mix.options({
     hmrOptions: {
         host: 'localhost',
+        // host: 'http://laravel-realtime.test/',
         port: 80,
     }
 })

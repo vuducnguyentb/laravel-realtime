@@ -24,7 +24,7 @@ Route::get('/ws',function (){
 
 Route::get('/playgroud', function () {
     echo 'vô';
-    event(new \App\Events\PlaygroudEvent());
+        event(new \App\Events\PlaygroudEvent());
     return null;
 });
 
