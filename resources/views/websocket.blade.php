@@ -8,7 +8,12 @@
     <title>Document</title>
 </head>
 <body>
-
+<ul id="list-messages">
+</ul>
+<form id="form">
+    <label for="input-message">Message:</label>
+    <input id="input-message" type="text">
+</form>
 <script src="{{ mix('js/app.js')  }}"></script>
 </body>
 </html>
