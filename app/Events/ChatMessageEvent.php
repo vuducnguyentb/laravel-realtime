@@ -23,7 +23,7 @@ class ChatMessageEvent implements ShouldBroadcast
 
     public function broadcastOn()
     {
-        return new Channel('public.chat.1');
+        return new PrivateChannel('public.chat.1');
     }
 
     public function broadcastAs()

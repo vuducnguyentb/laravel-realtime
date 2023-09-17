@@ -15,7 +15,7 @@ form.addEventListener('submit',function (event) {
     })
 })
 
-const channel = Echo.channel('public.chat.1');
+const channel = Echo.private('private.chat.1');
 
 //hàm này gọi lại khi kết nối thành công vớ channel
 channel.subscribed(()=>{
